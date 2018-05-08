@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Forms</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" media="all" href="assets/css/style.css"/>
+	</head>
+
+	<body>
+		<div class="modal-wrap">
+			<div class="modal-header">
+				<span class="is-active"></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="modal-bodies">
+				<div class="modal-body modal-body-step-1 is-showing">
+					<h3 class="title">Step 1</h3>
+					<p class="description">
+						Hello there, Let's play a game
+					</p>
+					<form>
+						<input type="text" name="name" placeholder="Name">
+						<input type="email" name="name" placeholder="Email">
+						<div class="text-center">
+							<button class="button" type="submit">Start</button>
+						</div>
+					</form>
+				</div>
+
+				<div class="modal-body modal-body-step-2">
+					<h3 class="title">Step 2</h3>
+					<p class="description">
+						Would You Rather Be
+					</p>
+					<form>
+						<label>
+							<input type="radio" name="radio">I live one life that lasts 1,000 years?
+						</label>
+						<label>
+							<input type="radio" name="radio" id="radio2">I live 10 life that lasts 100 years?
+						</label>
+						<div class="text-center fade-in">
+							<button class="button" type="submit">Next</button>
+						</div>
+					</form>
+				</div>
+
+				<div class="modal-body modal-body-step-3">
+					<h3 class="title">Step 3</h3>
+					<p class="description">
+						Check Your Mail For The game results.
+					</p>
+					<div class="text-center">
+							<button class="btn" type="submit">Done!</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="text-center">
+			<button class="rerun-button" type="submit">Rerun</button>
+		</div>
+
+
+		<script type="text/javascript" src="assets/jq/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/js/main.js"></script>
+	</body>
+</html>
